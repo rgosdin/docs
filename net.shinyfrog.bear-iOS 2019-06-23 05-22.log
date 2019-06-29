@@ -1,0 +1,4 @@
+2019/06/23 01:22:31:318  -[SFPreferencesDebugTableViewController setupTableData]_block_invoke_3:98  Sharing Current Version Application Data
+2019/06/23 01:22:31:318  -[SFPreferencesDebugTableViewController shareApplicationDataFolderAtURL:]:335  Sharing Application Data Folder: file:///private/var/mobile/Containers/Shared/AppGroup/7C43ACFE-2924-465E-9493-1A00C8EF2B2E/Application%20Data/
+2019/06/23 01:22:31:359  -[SFPreferencesDebugTableViewController shareApplicationDataFolderAtURL:]:347  Sharing Application Data Folder
+2019/06/23 01:22:36:781  -[SFPreferencesDebugTableViewController setupTableData]_block_invoke_5:65  Sharing File Log

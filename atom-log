@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <!-- Changelog -->
+ <id>https://hg.mozilla.org/mozilla-central/</id>
+ <link rel="self" href="https://hg.mozilla.org/mozilla-central/atom-log"/>
+ <link rel="alternate" href="https://hg.mozilla.org/mozilla-central/"/>
+ <title>mozilla-central Changelog</title>
+ <updated>2019-06-03T01:09:50+03:00</updated>
+
+ <entry>
+  <title>[default] Merge mozilla-inbound to mozilla-central. a=merge</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-6d71d3ca012438d7eac6e8f9471e198a10eabc70</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/6d71d3ca0124"/>
+  <author>
+   <name>Andreea Pavel</name>
+   <email>&#97;&#112;&#97;&#118;&#101;&#108;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-03T01:09:50+03:00</updated>
+  <published>2019-06-03T01:09:50+03:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>6d71d3ca0124</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td>default</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td>tip</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#65;&#110;&#100;&#114;&#101;&#101;&#97;&#32;&#80;&#97;&#118;&#101;&#108;&#32;&#60;&#97;&#112;&#97;&#118;&#101;&#108;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td>Merge mozilla-inbound to mozilla-central. a=merge</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 8 - Also gather EffectsInfo for remote browsers with WebRender. r=jrmuizel</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-ac0ad5d8e9a57c716e392c59b655853a728911b4</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/ac0ad5d8e9a5"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-24T09:28:34-05:00</updated>
+  <published>2019-05-24T09:28:34-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>ac0ad5d8e9a5</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 8 - Also gather EffectsInfo for remote browsers with WebRender. r=jrmuizel<br/>
+<br/>
+The nsDisplayListBuilder bits were added in the previous commit.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32477">https://phabricator.services.mozilla.com/D32477</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>gfx/layers/wr/WebRenderUserData.cpp<br />gfx/layers/wr/WebRenderUserData.h<br />layout/ipc/RenderFrame.cpp<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 7 - Gather EffectsInfo for remote browsers in a paint and apply them. r=mattwoodrow</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-b81cf35a573e1e3054dd792b8ab1ee0824139435</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/b81cf35a573e"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-24T09:28:23-05:00</updated>
+  <published>2019-05-24T09:28:23-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>b81cf35a573e</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 7 - Gather EffectsInfo for remote browsers in a paint and apply them. r=mattwoodrow<br/>
+<br/>
+WebRender support will be finished in the following commit.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32476">https://phabricator.services.mozilla.com/D32476</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>layout/base/nsLayoutUtils.cpp<br />layout/ipc/RenderFrame.cpp<br />layout/painting/FrameLayerBuilder.cpp<br />layout/painting/FrameLayerBuilder.h<br />layout/painting/nsDisplayList.cpp<br />layout/painting/nsDisplayList.h<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 6 - Centralize the visibility logic in BrowserChild and use EffectsInfo. r=mattwoodrow</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-4df5fa6fa785961229e7e0a7a0ebbab625192f24</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/4df5fa6fa785"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-15T15:29:22-05:00</updated>
+  <published>2019-05-15T15:29:22-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>4df5fa6fa785</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 6 - Centralize the visibility logic in BrowserChild and use EffectsInfo. r=mattwoodrow<br/>
+<br/>
+Currently, BrowserChild rendering is enabled and disabled by `RecvRenderLayers`, and this<br/>
+method is called only by the tab switching code.<br/>
+<br/>
+This commit does several things.<br/>
+1. It factors out the code to enable/disable rendering to MakeVisible/MakeHidden so it can<br/>
+   be used outside of `RecvRenderLayers`<br/>
+2. We track the current value of RenderLayers and use it in conjunction with EffectsInfo to<br/>
+   determine if we need to be rendering at any given moment<br/>
+3. We only apply RenderLayers to the root OOP browser (not OOP-iframes)<br/>
+<br/>
+These changes together make it so that BrowserChild will render IFF 'visible' || 'renderLayers',<br/>
+and will only apply 'renderLayers' to the root browser.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D31473">https://phabricator.services.mozilla.com/D31473</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>dom/ipc/BrowserChild.cpp<br />dom/ipc/BrowserChild.h<br />dom/ipc/BrowserHost.cpp<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 5 - Add mIsTopLevel flag for tracking the root PBrowser actor in a remote browser. r=farre</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-7eac769c7c134f53366f9195ecf15589b8d401ff</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/7eac769c7c13"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-29T11:35:37-05:00</updated>
+  <published>2019-05-29T11:35:37-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>7eac769c7c13</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 5 - Add mIsTopLevel flag for tracking the root PBrowser actor in a remote browser. r=farre<br/>
+<br/>
+The root PBrowser actor needs special case visibility behavior to satisfy the async tab<br/>
+switcher. This commit adds a flag to track whether a BrowserChild is part of the root<br/>
+actor.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D33046">https://phabricator.services.mozilla.com/D33046</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>dom/ipc/BrowserBridgeParent.cpp<br />dom/ipc/BrowserChild.cpp<br />dom/ipc/BrowserChild.h<br />dom/ipc/ContentChild.cpp<br />dom/ipc/ContentChild.h<br />dom/ipc/ContentParent.cpp<br />dom/ipc/PContent.ipdl<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 4 - Wire up basic EffectsInfo updates in DOM IPC. r=farre</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-4658bf615f4b0b4f0979dbb0d4e8c0b4b3b1f3f8</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/4658bf615f4b"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-15T15:26:25-05:00</updated>
+  <published>2019-05-15T15:26:25-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>4658bf615f4b</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 4 - Wire up basic EffectsInfo updates in DOM IPC. r=farre<br/>
+<br/>
+This commit adds RemoteBrowser::UpdateEffects for updating a remote browser's<br/>
+EffectsInfo over IPC.<br/>
+<br/>
+A following commit will actually use the EffectsInfo for<br/>
+enabling/disabling rendering for a remote browser, and another<br/>
+commit will actually use these IPDL methods.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D31472">https://phabricator.services.mozilla.com/D31472</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>dom/base/nsFrameLoader.cpp<br />dom/base/nsFrameLoader.h<br />dom/ipc/BrowserBridgeHost.cpp<br />dom/ipc/BrowserBridgeHost.h<br />dom/ipc/BrowserBridgeParent.cpp<br />dom/ipc/BrowserBridgeParent.h<br />dom/ipc/BrowserChild.cpp<br />dom/ipc/BrowserChild.h<br />dom/ipc/BrowserHost.cpp<br />dom/ipc/BrowserHost.h<br /><br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 3 - Add EffectsInfo and store in BrowserChild. r=farre</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-b186cb12283e5293e98e21b1cb0d4ca6fcdb0776</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/b186cb12283e"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-24T09:25:34-05:00</updated>
+  <published>2019-05-24T09:25:34-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>b186cb12283e</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 3 - Add EffectsInfo and store in BrowserChild. r=farre<br/>
+<br/>
+This commits adds EffectsInfo for tracking graphical effects<br/>
+that are applied to a remote browser's ancestors.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D31471">https://phabricator.services.mozilla.com/D31471</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>dom/ipc/BrowserChild.cpp<br />dom/ipc/BrowserChild.h<br />dom/ipc/EffectsInfo.h<br />dom/ipc/moz.build<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 2 - Make BrowserBridgeParent more robust. r=farre</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-1ba5519d5970dde2c36c17ef15475cd043212885</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/1ba5519d5970"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-16T09:32:34-05:00</updated>
+  <published>2019-05-16T09:32:34-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>1ba5519d5970</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 2 - Make BrowserBridgeParent more robust. r=farre<br/>
+<br/>
+This commit adds two small fixes to make the OOP-iframe code more robust.<br/>
+<br/>
+The first fixes a crash during shutdown for a tab that has OOP-iframes. It's<br/>
+possible for the BrowserBridgeParent's to be shutdown before the root<br/>
+BrowserParent. In this case, SetOwnerElement will run for the root BrowserParent,<br/>
+but the child BrowserBridgeParent's will not have BrowserParent actors.<br/>
+<br/>
+The second hooks up the BrowserBridgeParent constructor to actually use<br/>
+the result code of BrowserBridgeParent::Init.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D31477">https://phabricator.services.mozilla.com/D31477</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>dom/ipc/BrowserParent.cpp<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1519546, part 1 - Simplify layer casts in nsDisplayRemote::BuildLayer. r=mattwoodrow</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-2ced46502b550e82b1d3e8a5abc3580b9954c2bc</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/2ced46502b55"/>
+  <author>
+   <name>Ryan Hunt</name>
+   <email>&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;</email>
+  </author>
+  <updated>2019-05-20T15:14:13-05:00</updated>
+  <published>2019-05-20T15:14:13-05:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>2ced46502b55</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#82;&#121;&#97;&#110;&#32;&#72;&#117;&#110;&#116;&#32;&#60;&#114;&#104;&#117;&#110;&#116;&#64;&#101;&#113;&#114;&#105;&#111;&#110;&#46;&#110;&#101;&#116;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1519546" title="Bug 1519546">Bug 1519546</a>, part 1 - Simplify layer casts in nsDisplayRemote::BuildLayer. r=mattwoodrow<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32475">https://phabricator.services.mozilla.com/D32475</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>layout/ipc/RenderFrame.cpp<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555170 - Sync 'Allow Firefox to install and run studies' and '…make personalized extension recommendations' settings r=lina</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-781791b985b7ce8313fa9950ecde54b7bdeb4c3f</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/781791b985b7"/>
+  <author>
+   <name>Artem Polivanchuk</name>
+   <email>&#97;&#46;&#112;&#111;&#108;&#105;&#118;&#97;&#110;&#99;&#104;&#117;&#107;&#64;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-02T15:19:21+00:00</updated>
+  <published>2019-06-02T15:19:21+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>781791b985b7</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#65;&#114;&#116;&#101;&#109;&#32;&#80;&#111;&#108;&#105;&#118;&#97;&#110;&#99;&#104;&#117;&#107;&#32;&#60;&#97;&#46;&#112;&#111;&#108;&#105;&#118;&#97;&#110;&#99;&#104;&#117;&#107;&#64;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555170" title="Bug 1555170">Bug 1555170</a> - Sync 'Allow Firefox to install and run studies' and '…make personalized extension recommendations' settings r=lina<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D33422">https://phabricator.services.mozilla.com/D33422</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>browser/app/profile/firefox.js<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555511 Part 4: Add a test of resizing a document with meta viewport minimum-scale. r=botond</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-6988b151bbe73aaa04e07590c45642a14f13bd46</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/6988b151bbe7"/>
+  <author>
+   <name>Brad Werth</name>
+   <email>&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-05-31T22:11:46+00:00</updated>
+  <published>2019-05-31T22:11:46+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>6988b151bbe7</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#66;&#114;&#97;&#100;&#32;&#87;&#101;&#114;&#116;&#104;&#32;&#60;&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555511" title="Bug 1555511">Bug 1555511</a> Part 4: Add a test of resizing a document with meta viewport minimum-scale. r=botond<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D33100">https://phabricator.services.mozilla.com/D33100</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>devtools/client/responsive.html/test/browser/browser.ini<br />devtools/client/responsive.html/test/browser/browser_viewport_resizing_minimum_scale.js<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555511 Part 3: Refactor viewport resize test helper functions. r=botond</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-aa1c32a3878568e74976ebc5d3b219fb1edf2038</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/aa1c32a38785"/>
+  <author>
+   <name>Brad Werth</name>
+   <email>&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-05-31T22:11:24+00:00</updated>
+  <published>2019-05-31T22:11:24+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>aa1c32a38785</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#66;&#114;&#97;&#100;&#32;&#87;&#101;&#114;&#116;&#104;&#32;&#60;&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555511" title="Bug 1555511">Bug 1555511</a> Part 3: Refactor viewport resize test helper functions. r=botond<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D33362">https://phabricator.services.mozilla.com/D33362</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>devtools/client/responsive.html/test/browser/browser_viewport_resizing_fixed_width.js<br />devtools/client/responsive.html/test/browser/browser_viewport_resizing_fixed_width_and_zoom.js<br />devtools/client/responsive.html/test/browser/browser_viewport_resizing_scrollbar.js<br />devtools/client/responsive.html/test/browser/head.js<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555511 Part 2: Remove a float division in MVM::ScaleZoomWithDisplayWidth. r=botond</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-999f3af17edf09b54a3c7f2ff77c0bf33d18b4cb</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/999f3af17edf"/>
+  <author>
+   <name>Brad Werth</name>
+   <email>&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-05-31T22:10:59+00:00</updated>
+  <published>2019-05-31T22:10:59+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>999f3af17edf</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#66;&#114;&#97;&#100;&#32;&#87;&#101;&#114;&#116;&#104;&#32;&#60;&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555511" title="Bug 1555511">Bug 1555511</a> Part 2: Remove a float division in MVM::ScaleZoomWithDisplayWidth. r=botond<br/>
+<br/>
+This is a drive-by fix to turn a division into a multiplication. It also<br/>
+is more correct in that the existing code attempts a divide-by-zero if<br/>
+aNewViewport.width is zero. The updated code will instead return a zoom<br/>
+of zero in such a case.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32909">https://phabricator.services.mozilla.com/D32909</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>layout/base/MobileViewportManager.cpp<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555511 Part 1: Make MVM::UpdateResolution clamp viewport zoom for the new display size later in the calculation. r=botond</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-1069871269f7330450f0ffdc8ade8aacdd4bca29</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/1069871269f7"/>
+  <author>
+   <name>Brad Werth</name>
+   <email>&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-05-31T22:10:28+00:00</updated>
+  <published>2019-05-31T22:10:28+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>1069871269f7</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#66;&#114;&#97;&#100;&#32;&#87;&#101;&#114;&#116;&#104;&#32;&#60;&#98;&#119;&#101;&#114;&#116;&#104;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555511" title="Bug 1555511">Bug 1555511</a> Part 1: Make MVM::UpdateResolution clamp viewport zoom for the new display size later in the calculation. r=botond<br/>
+<br/>
+The existing math is attempting to adjust the display scale ratio to<br/>
+prevent the new size from landing outside the min/max zoom bounds. This<br/>
+introduces unwanted side effects that can be avoided by simply clamping<br/>
+to min/max at the end. The remaining math correctly handles the case<br/>
+where the zoom has ALREADY been clamped, which is the only important<br/>
+case.<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32908">https://phabricator.services.mozilla.com/D32908</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>layout/base/MobileViewportManager.cpp<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Merge mozilla-central to autoland</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-328fbe865833ad7bea3b5f306288733ba615c007</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/328fbe865833"/>
+  <author>
+   <name>Dorel Luca</name>
+   <email>&#100;&#108;&#117;&#99;&#97;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-02T12:48:35+03:00</updated>
+  <published>2019-06-02T12:48:35+03:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>328fbe865833</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#68;&#111;&#114;&#101;&#108;&#32;&#76;&#117;&#99;&#97;&#32;&#60;&#100;&#108;&#117;&#99;&#97;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td>Merge mozilla-central to autoland</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>browser/base/content/browser.xul<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1552559 - Ensure built in engines are available on startup. r=mikedeboer</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-5e8198871a11f420bc07ba8d33126713a4332ff7</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/5e8198871a11"/>
+  <author>
+   <name>Dale Harvey</name>
+   <email>&#100;&#97;&#108;&#101;&#64;&#97;&#114;&#97;&#110;&#100;&#111;&#109;&#117;&#114;&#108;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-02T08:42:16+00:00</updated>
+  <published>2019-06-02T08:42:16+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>5e8198871a11</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#68;&#97;&#108;&#101;&#32;&#72;&#97;&#114;&#118;&#101;&#121;&#32;&#60;&#100;&#97;&#108;&#101;&#64;&#97;&#114;&#97;&#110;&#100;&#111;&#109;&#117;&#114;&#108;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1552559" title="Bug 1552559">Bug 1552559</a> - Ensure built in engines are available on startup. r=mikedeboer<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32320">https://phabricator.services.mozilla.com/D32320</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>browser/components/search/test/browser/browser_contextmenu.js<br />toolkit/components/search/SearchService.jsm<br />toolkit/components/search/nsISearchService.idl<br />toolkit/components/search/tests/xpcshell/test_selectedEngine.js<br />toolkit/components/search/tests/xpcshell/test_webextensions_install.js<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555943 - Update outdated comment referring to XBL field behavior, r=dao</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-cd4d4f19250633c7d8fba388a555ca4faf93ded0</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/cd4d4f192506"/>
+  <author>
+   <name>Alexander Surkov</name>
+   <email>&#115;&#117;&#114;&#107;&#111;&#118;&#46;&#97;&#108;&#101;&#120;&#97;&#110;&#100;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-01T21:53:36+00:00</updated>
+  <published>2019-06-01T21:53:36+00:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>cd4d4f192506</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#65;&#108;&#101;&#120;&#97;&#110;&#100;&#101;&#114;&#32;&#83;&#117;&#114;&#107;&#111;&#118;&#32;&#60;&#115;&#117;&#114;&#107;&#111;&#118;&#46;&#97;&#108;&#101;&#120;&#97;&#110;&#100;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555943" title="Bug 1555943">Bug 1555943</a> - Update outdated comment referring to XBL field behavior, r=dao<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D33268">https://phabricator.services.mozilla.com/D33268</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>browser/base/content/tabbrowser-tab.js<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Merge mozilla-inbound to mozilla-central a=merge</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-afb588ff09317067dcc2558d8f14546a332d1162</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/afb588ff0931"/>
+  <author>
+   <name>Dorel Luca</name>
+   <email>&#100;&#108;&#117;&#99;&#97;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-02T12:43:23+03:00</updated>
+  <published>2019-06-02T12:43:23+03:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>afb588ff0931</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#68;&#111;&#114;&#101;&#108;&#32;&#76;&#117;&#99;&#97;&#32;&#60;&#100;&#108;&#117;&#99;&#97;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td>Merge mozilla-inbound to mozilla-central a=merge</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>browser/base/content/browser.xhtml<br />browser/base/content/browser.xul<br />dom/ipc/ContentChild.cpp<br />layout/xul/BoxObject.cpp<br />layout/xul/BoxObject.h<br />layout/xul/nsIBoxObject.idl<br />layout/xul/nsPIBoxObject.h<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Bug 1555114 - Convert the TextEditor markup into a React component. r=jdescottes</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-3057e44b38b2856ac09032f2835ce9967caace87</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/3057e44b38b2"/>
+  <author>
+   <name>Gabriel Luong</name>
+   <email>&#103;&#97;&#98;&#114;&#105;&#101;&#108;&#46;&#108;&#117;&#111;&#110;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-05-28T15:42:28-04:00</updated>
+  <published>2019-05-28T15:42:28-04:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>3057e44b38b2</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#71;&#97;&#98;&#114;&#105;&#101;&#108;&#32;&#76;&#117;&#111;&#110;&#103;&#32;&#60;&#103;&#97;&#98;&#114;&#105;&#101;&#108;&#46;&#108;&#117;&#111;&#110;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1555114" title="Bug 1555114">Bug 1555114</a> - Convert the TextEditor markup into a React component. r=jdescottes<br/>
+<br/>
+Differential Revision: <a href="https://phabricator.services.mozilla.com/D32882">https://phabricator.services.mozilla.com/D32882</a></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>devtools/client/inspector/markup/components/TextNode.js<br />devtools/client/inspector/markup/components/moz.build<br />devtools/client/inspector/markup/moz.build<br />devtools/client/inspector/markup/test/browser_markup_keybindings_03.js<br />devtools/client/inspector/markup/utils/l10n.js<br />devtools/client/inspector/markup/utils/moz.build<br />devtools/client/inspector/markup/views/element-editor.js<br />devtools/client/inspector/markup/views/text-editor.js<br />devtools/client/shared/browser-loader.js<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+ <entry>
+  <title>Merge mozilla-central to mozilla-inbound. CLOSED TREE</title>
+  <id>https://hg.mozilla.org/mozilla-central/#changeset-dabe643ec18db79a7efd0a7f9fff858e0daf0789</id>
+  <link href="https://hg.mozilla.org/mozilla-central/rev/dabe643ec18d"/>
+  <author>
+   <name>Csoregi Natalia</name>
+   <email>&#110;&#99;&#115;&#111;&#114;&#101;&#103;&#105;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;</email>
+  </author>
+  <updated>2019-06-02T00:37:53+03:00</updated>
+  <published>2019-06-02T00:37:53+03:00</published>
+  <content type="xhtml">
+   <table xmlns="http://www.w3.org/1999/xhtml">
+    <tr>
+     <th style="text-align:left;">changeset</th>
+     <td>dabe643ec18d</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">branch</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">bookmark</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">tag</th>
+     <td></td>
+    </tr>
+    <tr>
+     <th style="text-align:left;">user</th>
+     <td>&#67;&#115;&#111;&#114;&#101;&#103;&#105;&#32;&#78;&#97;&#116;&#97;&#108;&#105;&#97;&#32;&#60;&#110;&#99;&#115;&#111;&#114;&#101;&#103;&#105;&#64;&#109;&#111;&#122;&#105;&#108;&#108;&#97;&#46;&#99;&#111;&#109;&#62;</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">description</th>
+     <td>Merge mozilla-central to mozilla-inbound. CLOSED TREE</td>
+    </tr>
+    <tr>
+     <th style="text-align:left;vertical-align:top;">files</th>
+     <td>dom/base/Element.cpp<br />layout/generic/FrameIdList.h<br />layout/generic/nsFrameIdList.h<br /></td>
+    </tr>
+   </table>
+  </content>
+ </entry>
+
+</feed>

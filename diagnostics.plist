@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppVersion</key>
+	<string>3.2.1</string>
+	<key>KernelVersion</key>
+	<string>Darwin Kernel Version 18.6.0: Thu Apr 25 22:14:08 PDT 2019; root:xnu-4903.262.2~2/RELEASE_ARM64_T8015</string>
+	<key>LogFile</key>
+	<string></string>
+	<key>MachineName</key>
+	<string>iPhone10,4</string>
+	<key>OSProductVersion</key>
+	<string>12.3</string>
+	<key>OSVersion</key>
+	<string>16F156</string>
+	<key>Packages</key>
+	<array/>
+	<key>Preferences</key>
+	<dict>
+		<key>BootNonce</key>
+		<string>0x1111111111111111</string>
+		<key>DisableAppRevokes</key>
+		<true/>
+		<key>DisableAutoUpdates</key>
+		<true/>
+		<key>DoEnableGetTaskAllow</key>
+		<true/>
+		<key>DoReloadSystemDaemons</key>
+		<true/>
+		<key>DumpAPTicket</key>
+		<true/>
+		<key>Ecid</key>
+		<string>0x0</string>
+		<key>Exploit</key>
+		<integer>-1</integer>
+		<key>ExportKernelTaskPort</key>
+		<true/>
+		<key>HideLogWindow</key>
+		<true/>
+		<key>IncreaseMemoryLimit</key>
+		<true/>
+		<key>InstallCydia</key>
+		<true/>
+		<key>InstallOpenSSH</key>
+		<true/>
+		<key>LoadDaemons</key>
+		<true/>
+		<key>OverwriteBootNonce</key>
+		<true/>
+		<key>RefreshIconCache</key>
+		<true/>
+		<key>ResetCydiaCache</key>
+		<true/>
+		<key>RestoreRootFS</key>
+		<true/>
+		<key>SSHOnly</key>
+		<true/>
+		<key>SetCSDebugged</key>
+		<true/>
+		<key>TweakInjection</key>
+		<true/>
+	</dict>
+	<key>Sources</key>
+	<array/>
+	<key>Uptime</key>
+	<real>111171</real>
+</dict>
+</plist>
